@@ -1,0 +1,91 @@
+﻿body{
+	margin: 0px;
+	padding: 0px;
+	width: 1024px;
+	height: 768px;
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+#wrapper{
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+}
+
+.move{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 768px;
+}
+
+.slide{
+	position: absolute;
+	top: 0px;
+	width: 1024px;
+	height: 768px;
+	background-repeat: no-repeat;
+}
+
+.page{
+	position: absolute;
+	left: 453px;
+	top: 695px;
+	width: 123px;
+	height: 42px;
+	z-index: 3;
+}
+
+.but-blur{
+	position: absolute;
+	top: 12px;
+	width: 15px;
+	height: 15px;
+	background-image: url(../img/icon_forcus.png);
+}
+
+.but-forcus{
+	position: absolute;
+	top: 12px;
+	width: 15px;
+	height: 15px;
+	background-image: url(../img/icon_blur.png);
+}
+
+.name1{
+	position: absolute;
+	left: 338px;
+	top: 625px;
+	z-index: 5;
+	opacity: 1;
+	-webkit-transition: opacity 500ms;
+}
+
+.name2{
+	position: absolute;
+	left: 338px;
+	top: 625px;
+	z-index: 5;
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+}
+
+.popup{
+	position: absolute;
+	left: 470px;
+	top: 541px;
+	z-index: 5;
+	-webkit-transition: opacity 500ms;
+}
+
+.imgDiv{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+
